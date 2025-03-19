@@ -2,6 +2,7 @@ package com.tyza66.justsimpledemo.controller;
 
 import com.tyza66.justsimpledemo.instance.NamedInstance;
 import com.tyza66.justsimpledemo.service.TestService;
+import io.netty.handler.codec.http.FullHttpRequest;
 import org.mutantcat.justsimple.annotation.Controller;
 import org.mutantcat.justsimple.annotation.Handler;
 import org.mutantcat.justsimple.instance.InstanceHandler;
