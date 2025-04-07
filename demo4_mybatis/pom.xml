@@ -19,13 +19,13 @@
         <dependency>
             <groupId>org.mutantcat.justsimple</groupId>
             <artifactId>justsimple-core</artifactId>
-            <version>1.0.20250324</version>
+            <version>1.0.20250408</version>
         </dependency>
-        <!-- MyBatis -->
+        <!-- JustSimple-MyBatis -->
         <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.5.7</version>
+            <groupId>org.mutantcat.justsimple</groupId>
+            <artifactId>justsimple-dao-mybatis</artifactId>
+            <version>1.0.20250408</version>
         </dependency>
 
         <!-- MySQL Connector -->

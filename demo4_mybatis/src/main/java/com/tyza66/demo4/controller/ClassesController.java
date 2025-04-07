@@ -33,9 +33,9 @@ public class ClassesController {
 
     @Handler(path = "/classes/all")
     public JSON getAllClasses(Context ctx) {
-        // 获取所有班级
+        // 获取所有课程
         List<Class> allClasses = classMapper.getAllClasses();
-        // 返回 JSON 格式的班级列表
+        // 返回 JSON 格式的课程列表
         return JSONUtil.parse(allClasses);
     }
 }

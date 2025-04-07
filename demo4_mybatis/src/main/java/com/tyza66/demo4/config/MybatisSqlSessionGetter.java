@@ -7,7 +7,7 @@ import org.mutantcat.justsimple.annotation.Instance;
 
 import java.io.InputStream;
 
-@Instance(name = "mybatis")
+//@Instance(name = "mybatis")
 public class MybatisSqlSessionGetter {
 
     private static SqlSessionFactory sqlSessionFactory;
